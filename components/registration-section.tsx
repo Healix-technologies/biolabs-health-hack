@@ -159,7 +159,7 @@ export function RegistrationSection() {
           <div className="flex items-center justify-center gap-3 mb-8">
             <span className="h-px w-8 bg-gold" aria-hidden="true" />
             <span className="text-xs font-semibold uppercase tracking-[0.2em] text-gold">
-              Event Coordinators
+              Need Help?
             </span>
             <span className="h-px w-8 bg-gold" aria-hidden="true" />
           </div>

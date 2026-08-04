@@ -188,7 +188,7 @@ export function JourneySection() {
       <div className="mx-auto max-w-7xl px-4 md:px-8">
         <SectionHeading
           eyebrow="Official Competition Timeline"
-          title="BioLabs AI HealthHack 2026 \u2013 Official Event Timeline"
+          title="BioLabs AI HealthHack 2026 - Official Event Timeline"
           align="center"
           description="Follow the journey from registration through the evaluation rounds to the final award ceremony."
         />

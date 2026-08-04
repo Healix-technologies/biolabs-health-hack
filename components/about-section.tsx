@@ -8,28 +8,16 @@ export function AboutSection() {
         <div className="grid gap-10 lg:grid-cols-[0.95fr_1.05fr] lg:items-center">
           <div className="order-2 lg:order-1">
             <SectionHeading
-              eyebrow="About the Competition"
-              title="Solving real-world healthcare challenges with AI"
+              eyebrow="BioLabs AI HealthHack 2026"
+              title="About the Competition"
             />
 
             <div className="mt-8 space-y-5">
               <p className="text-base leading-relaxed text-muted-foreground md:text-lg">
-                BioLabs AI HealthHack 2026 is a national-level innovation
-                challenge that brings together students, researchers, developers,
-                healthcare professionals, and innovators to solve real-world
-                healthcare problems using Artificial Intelligence and emerging
-                technologies.
+                BioLabs AI HealthHack 2026 is a national AI and healthcare innovation challenge that brings together students, researchers, developers, and healthcare professionals to solve real-world healthcare problems using Artificial Intelligence.
               </p>
               <p className="text-base leading-relaxed text-muted-foreground md:text-lg">
-                Participants will research, design, prototype, and present
-                impactful AI-driven healthcare solutions while receiving guidance
-                from experienced mentors and evaluations from leading industry
-                experts.
-              </p>
-              <p className="text-base leading-relaxed text-muted-foreground md:text-lg">
-                The competition promotes interdisciplinary collaboration,
-                innovation, and practical problem-solving to develop scalable
-                healthcare solutions.
+                Participants will research, prototype, and present innovative AI-driven healthcare solutions while receiving guidance from experienced mentors and expert judges.
               </p>
             </div>
           </div>

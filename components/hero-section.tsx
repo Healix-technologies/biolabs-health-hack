@@ -1,12 +1,6 @@
 import Image from 'next/image'
-import { ArrowRight, Download, Award, Users } from 'lucide-react'
+import { ArrowRight, Download } from 'lucide-react'
 import { REGISTRATION_URL, BROCHURE_URL } from '@/lib/site-data'
-
-const HIGHLIGHTS = [
-  { value: '₹20,000+', label: 'Total Prize Pool' },
-  { value: '3 Rounds', label: 'National Competition' },
-  { value: 'PAN India', label: 'Open to All' },
-]
 
 export function HeroSection() {
   return (
@@ -52,9 +46,7 @@ export function HeroSection() {
           </div>
 
           <p className="max-w-xl text-pretty text-base leading-relaxed text-white/75 md:text-lg">
-            A national-level innovation challenge bringing together students,
-            researchers, developers, and healthcare professionals to solve
-            real-world healthcare problems using AI and emerging technologies.
+            Build AI-powered healthcare solutions, compete with innovators across the country, and present your ideas before leading researchers and industry experts.
           </p>
 
           <div className="mt-2 flex flex-col gap-3 sm:flex-row">
@@ -77,17 +69,6 @@ export function HeroSection() {
               Download Brochure
             </a>
           </div>
-
-          <dl className="mt-6 grid grid-cols-3 gap-4 border-t border-white/10 pt-6">
-            {HIGHLIGHTS.map((item) => (
-              <div key={item.label} className="flex flex-col gap-1">
-                <dt className="order-2 text-xs text-white/60">{item.label}</dt>
-                <dd className="order-1 font-serif text-xl font-semibold text-gold md:text-2xl">
-                  {item.value}
-                </dd>
-              </div>
-            ))}
-          </dl>
         </div>
 
         <div className="relative">
@@ -104,27 +85,6 @@ export function HeroSection() {
               className="absolute inset-0 bg-gradient-to-t from-navy/60 via-transparent to-transparent"
               aria-hidden="true"
             />
-          </div>
-
-          <div className="absolute -bottom-5 -left-3 hidden items-center gap-3 rounded-lg border border-border bg-background px-4 py-3 shadow-xl sm:flex md:-left-6">
-            <div className="flex h-10 w-10 items-center justify-center rounded-md bg-navy text-navy-foreground">
-              <Award className="h-5 w-5" aria-hidden="true" />
-            </div>
-            <div className="flex flex-col">
-              <span className="text-sm font-semibold text-navy">
-                Certificate + Internship
-              </span>
-              <span className="text-xs text-muted-foreground">
-                For top performers
-              </span>
-            </div>
-          </div>
-
-          <div className="absolute -right-3 top-6 hidden items-center gap-2 rounded-lg border border-border bg-background px-3 py-2 shadow-xl md:flex">
-            <Users className="h-4 w-4 text-gold" aria-hidden="true" />
-            <span className="text-xs font-medium text-navy">
-              Network with Experts
-            </span>
           </div>
         </div>
       </div>

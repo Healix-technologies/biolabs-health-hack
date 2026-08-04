@@ -47,14 +47,9 @@ export function SiteFooter() {
               className="h-11 w-auto"
             />
           </div>
-          <div className="flex flex-col gap-2">
-            <h3 className="font-serif text-xl font-semibold text-white md:text-2xl">
-              BioLabs AI HealthHack 2026
-            </h3>
-            <p className="text-sm font-medium text-white/60">
-              Research \u2022 Innovation \u2022 Excellence
-            </p>
-          </div>
+          <p className="text-sm font-medium text-white/60">
+            Research • Innovation • Excellence
+          </p>
           <a
             href={`https://${SITE_URL}`}
             target="_blank"
@@ -68,7 +63,7 @@ export function SiteFooter() {
 
         <div className="mt-10 flex flex-col items-center justify-between gap-6 border-t border-white/10 pt-8 md:flex-row">
           <p className="text-sm text-white/60">
-            Copyright \u00A9 2026 BioLabs. All Rights Reserved.
+            Copyright © 2026 BioLabs. All Rights Reserved.
           </p>
           <div className="flex items-center gap-3">
             {SOCIALS.map((social) => (
