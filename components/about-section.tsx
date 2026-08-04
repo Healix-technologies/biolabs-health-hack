@@ -68,7 +68,7 @@ export function AboutSection() {
             <div>
               <h3 className="text-sm font-semibold uppercase tracking-widest text-gold mb-1">What You'll Get</h3>
               <p className="text-white/70 text-base leading-relaxed">
-                Mentorship from AI and healthcare experts, exposure to industry leaders, a chance to win ₹5 Lakh+ in prizes, and national recognition for your innovation.
+                Mentorship from AI and healthcare experts, exposure to industry leaders, a chance to win ₹20,000 in prizes, and national recognition for your innovation.
               </p>
             </div>
 
