@@ -61,7 +61,7 @@ export function AboutSection() {
             <div>
               <h3 className="text-sm font-semibold uppercase tracking-widest text-gold mb-1">Format</h3>
               <p className="text-white/70 text-base leading-relaxed">
-                A 3-day multi-round national hackathon — online screening rounds followed by a Grand Finale at SMIT, Sikkim Manipal Institute of Technology, on 28–30 August 2026.
+                A fully online multi-round national hackathon — from registration to the final results, everything happens virtually. Participate from anywhere in India.
               </p>
             </div>
 

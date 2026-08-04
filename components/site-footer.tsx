@@ -1,7 +1,7 @@
 'use client'
 
 import Image from 'next/image'
-import { Globe, Mail, MapPin, Calendar, ChevronRight } from 'lucide-react'
+import { Globe, Mail, Wifi, Calendar, ChevronRight } from 'lucide-react'
 import type { SVGProps } from 'react'
 import { SITE_URL } from '@/lib/site-data'
 
@@ -44,7 +44,7 @@ const QUICK_LINKS = [
 
 const EVENT_DETAILS = [
   { icon: Calendar, text: 'Aug 5 – Sep 2, 2026' },
-  { icon: MapPin, text: 'SMIT, Sikkim (Grand Finale)' },
+  { icon: Wifi, text: '100% Online Event' },
   { icon: Mail, text: 'biolabs@healix-technologies.com' },
   { icon: Globe, text: SITE_URL },
 ]
@@ -433,9 +433,9 @@ export function SiteFooter() {
 
             {/* Hackathon highlight box */}
             <div className="mt-6 rounded-2xl border border-blue-500/20 bg-blue-600/5 p-5 backdrop-blur">
-              <p className="text-xs uppercase tracking-widest text-blue-400 font-semibold mb-2">Grand Finale</p>
-              <p className="text-white font-bold text-lg leading-snug">28 – 30 August 2026</p>
-              <p className="text-white/50 text-xs mt-1">SMIT Campus, Sikkim, India</p>
+              <p className="text-xs uppercase tracking-widest text-blue-400 font-semibold mb-2">Results Announcement</p>
+              <p className="text-white font-bold text-lg leading-snug">30 August 2026</p>
+              <p className="text-white/50 text-xs mt-1">Fully Online — Participate from Anywhere</p>
               <div className="mt-3 h-px w-full bg-gradient-to-r from-blue-500/40 to-transparent"/>
               <p className="mt-3 text-xs text-white/40">Prize Pool · ₹20,000 · Certificates · National Recognition</p>
             </div>
