@@ -8,6 +8,6 @@ export const NAV_LINKS = [
 export const REGISTRATION_URL =
   'https://forms.gle/UUctd3j3w7kw68a19'
 
-export const SITE_URL = 'www.biolabsresearch-healix.com'
+export const SITE_URL = 'https://healix-technologies.com/'
 
-export const BROCHURE_URL = '#'
+export const BROCHURE_URL = '/brochure.pdf'

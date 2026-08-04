@@ -23,8 +23,7 @@ const DETAILS = [
   {
     icon: Users,
     label: 'Participant Limit',
-    value: '650',
-    sub: 'Participants',
+    value: 'Open to everyone',
   },
   {
     icon: ListOrdered,
@@ -132,7 +131,7 @@ export function RegistrationSection() {
             <div className="overflow-hidden rounded-xl bg-white p-3 shadow-lg">
               <Image
                 src="/registration-qr.jpg"
-                alt="QR code to register for BioLabs AI HealthHack 2026"
+                alt="QR code to register for Healix  AI HealthHack 2026"
                 width={200}
                 height={200}
                 className="h-44 w-44 object-contain"

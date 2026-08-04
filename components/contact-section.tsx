@@ -5,13 +5,13 @@ const COORDINATORS = [
   {
     name: 'Program Coordinator',
     role: 'General Enquiries & Registration',
-    email: 'research@biolabsresearch-healix.com',
+    email: 'research@Healix research-healix.com',
     phone: '+91 98765 43210',
   },
   {
     name: 'Student Coordinator',
     role: 'Rotaract Club of USME',
-    email: 'coordinator@biolabsresearch-healix.com',
+    email: 'coordinator@Healix research-healix.com',
     phone: '+91 91234 56780',
   },
 ]

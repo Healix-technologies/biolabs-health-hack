@@ -63,7 +63,7 @@ export function SiteFooter() {
 
         <div className="mt-10 flex flex-col items-center justify-between gap-6 border-t border-white/10 pt-8 md:flex-row">
           <p className="text-sm text-white/60">
-            Copyright © 2026 BioLabs. All Rights Reserved.
+            Copyright © 2026 Healix . All Rights Reserved.
           </p>
           <div className="flex items-center gap-3">
             {SOCIALS.map((social) => (

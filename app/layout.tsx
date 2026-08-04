@@ -16,12 +16,12 @@ const sourceSerif = Source_Serif_4({
 })
 
 export const metadata: Metadata = {
-  title: 'BioLabs AI HealthHack 2026',
+  title: 'Healix  AI HealthHack 2026',
   description:
-    'BioLabs AI HealthHack 2026 is a national-level innovation challenge that brings together students, researchers, developers, healthcare professionals, and innovators to solve real-world healthcare problems using Artificial Intelligence and emerging technologies.',
+    'Healix  AI HealthHack 2026 is a national-level innovation challenge that brings together students, researchers, developers, healthcare professionals, and innovators to solve real-world healthcare problems using Artificial Intelligence and emerging technologies.',
   generator: 'v0.app',
   keywords: [
-    'BioLabs',
+    'Healix ',
     'AI HealthHack 2026',
     'Healix Technologies',
     'healthcare hackathon',
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     'innovation challenge',
   ],
   openGraph: {
-    title: 'BioLabs AI HealthHack 2026',
+    title: 'Healix  AI HealthHack 2026',
     description:
       'Innovate. Research. Present. Win. A national-level AI & Healthcare innovation competition.',
     type: 'website',

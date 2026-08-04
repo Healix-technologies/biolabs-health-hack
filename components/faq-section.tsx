@@ -8,7 +8,7 @@ import { SectionHeading } from '@/components/section-heading'
 const FAQS = [
   {
     q: 'Who can participate in the competition?',
-    a: 'The BioLabs National Research Competition is open to students across India from all disciplines who are passionate about research, innovation, and scientific thinking.',
+    a: 'The Healix  National Research Competition is open to students across India from all disciplines who are passionate about research, innovation, and scientific thinking.',
   },
   {
     q: 'What are the stages of the competition?',

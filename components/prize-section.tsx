@@ -44,7 +44,7 @@ export function PrizeSection() {
     <section id="prizes" className="bg-background py-20 md:py-28">
       <div className="mx-auto max-w-7xl px-4 md:px-8">
         <SectionHeading
-          eyebrow="BioLabs AI HealthHack 2026"
+          eyebrow="Healix  AI HealthHack 2026"
           title="Prizes & Guest Faculty"
           align="center"
         />
