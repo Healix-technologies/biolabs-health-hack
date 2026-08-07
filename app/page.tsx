@@ -1,5 +1,6 @@
 import { SiteHeader } from '@/components/site-header'
 import { HeroSection } from '@/components/hero-section'
+import { PartnersMarquee } from '@/components/PartnersMarquee'
 import { AboutSection } from '@/components/about-section'
 import { JourneySection } from '@/components/journey-section'
 import { PrizeSection } from '@/components/prize-section'
@@ -12,6 +13,7 @@ export default function Page() {
       <SiteHeader />
       <main>
         <HeroSection />
+        <PartnersMarquee />
         <AboutSection />
         <JourneySection />
         <PrizeSection />

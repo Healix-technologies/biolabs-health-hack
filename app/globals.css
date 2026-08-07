@@ -195,3 +195,20 @@
     );
   background-size: 44px 44px;
 }
+
+@keyframes partners-marquee {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  100% {
+    transform: translate3d(-50%, 0, 0);
+  }
+}
+
+.animate-partners-marquee {
+  display: flex;
+  width: max-content;
+  animation: partners-marquee 30s linear infinite;
+  will-change: transform;
+}
+
