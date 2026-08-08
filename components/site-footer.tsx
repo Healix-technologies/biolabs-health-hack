@@ -45,7 +45,7 @@ const QUICK_LINKS = [
 const EVENT_DETAILS = [
   { icon: Calendar, text: 'Aug 5 – Sep 2, 2026' },
   { icon: Wifi, text: '100% Online Event' },
-  { icon: Mail, text: 'biolabs@healix-technologies.com' },
+  { icon: Mail, text: 'Biolabsresearch-healix.com' },
   { icon: Globe, text: SITE_URL },
 ]
 
@@ -447,7 +447,7 @@ export function SiteFooter() {
           <p className="text-xs text-white/30">
             © 2026 Healix Technologies Pvt. Ltd. All Rights Reserved.
           </p>
-          <a href={`https://${SITE_URL}`} target="_blank" rel="noopener noreferrer"
+          <a href={'{SITE_URL}'} target="_blank" rel="noopener noreferrer"
             className="inline-flex items-center gap-1.5 text-xs text-blue-400 transition-colors hover:text-white">
             <Globe className="h-3.5 w-3.5"/>
             {SITE_URL}
